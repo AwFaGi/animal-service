@@ -1,0 +1,204 @@
+body {
+    background-color: burlywood;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+
+.header-text {
+    color: saddlebrown;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.username {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.right-column {
+    background-color: white;
+    width: 85%;
+}
+
+.map-box {
+    padding: 40px;
+}
+
+.left-column {
+    width: 15%;
+}
+
+.btn, .orange-btn {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+.left-column .btn:hover{
+    background-color: darkgray;
+}
+
+/*Login form*/
+
+.page-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page-frame-mini {
+    height: unset;
+}
+
+div.whiten {
+    background-color: white;
+    min-width: 400px;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.orange-btn {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: coral;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.orange-btn:hover {
+    background-color: #ff6347;
+}
+
+/*Личный кабинет*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    margin: 10px;
+}
+
+.orange-btn.nav{
+    margin: auto 0;
+}
+
+.animal-image {
+    max-width: 250px;
+    height: 250px;
+}
+
+.map-search {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.travel-table-container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.travel-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.travel-table th,
+.travel-table td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.travel-table th {
+    background-color: #f2f2f2;
+}
+
+.travel-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.travel-table tr:hover {
+    background-color: #e3e3e3;
+}
+
+.travel-table .action-buttons button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.travel-table .action-buttons button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.travel-table .action-buttons button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.plan-list:before{
+    margin-bottom: 10px;
+}
+
+.plan-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.plan-item {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
